@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>arik.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <meta name="description" content="Web Designer & Developer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <button class="close" id="closeModal">&times;</button>
+        <h2>Давайте зв'яжемося</h2>
+        <form>
+            <input type="text" placeholder="Ім'я" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Повідомлення" required></textarea>
+            <button type="submit">Надіслати</button>
+        </form>
+    </div>
+</div>
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html"><img src="img/Logo.png" alt="img" class="logo"></a>
+        <div class="burger" id="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="work.html">Роботи</a></li>
+            <li><a href="about.html">Про мене</a></li>
+            <li><a href="#">Контакти</a></li>
+            <li><a href="#" class="btn-talk" id="openModal">Поговоримо?</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="profile-section">
+    <div class="profile-image">
+        <img src="img/Image2.png" alt="Arik Andersson portrait">
+    </div>
+    <div class="profile pro-con">
+        <div class="about">
+            <span class="title-about">Контакти</span>
+            <h2>Давайте зв'яжемося</h2>
+            <form class="contact-form">
+                <input placeholder="Ім'я" type="text" name="name" required>
+                <input placeholder="Емейл" type="email" name="email" required>
+                <textarea placeholder="Повідомлення" name="message" required></textarea>
+                <button class="form-btn" type="submit">Надіслати повідомлення</button>
+            </form>
+        </div>
+        <div class="social-links">
+            <a href="#">
+                <i class="fa-brands fa-instagram fa-lg" style="color: #DAC5A7;"></i>
+                Instagram
+                <i class="fa-solid fa-arrow-right fa-lg arrow-pos" style="color: #DAC5A7;"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-twitter fa-lg" style="color: #DAC5A7;"></i>
+                Twitter
+                <i class="fa-solid fa-arrow-right fa-lg arrow-pos" style="color: #DAC5A7;"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook fa-lg" style="color: #DAC5A7;"></i>
+                Facebook
+                <i class="fa-solid fa-arrow-right fa-lg arrow-pos" style="color: #DAC5A7;"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-behance fa-lg" style="color: #DAC5A7;"></i>
+                Behance
+                <i class="fa-solid fa-arrow-right fa-lg arrow-pos" style="color: #DAC5A7;"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-dribbble fa-lg" style="color: #DAC5A7;"></i>
+                Dribbble
+                <i class="fa-solid fa-arrow-right fa-lg arrow-pos" style="color: #DAC5A7;"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-pinterest fa-lg" style="color: #DAC5A7;"></i>
+                Pinterest
+                <i class="fa-solid fa-arrow-right fa-lg arrow-pos" style="color: #DAC5A7;"></i>
+            </a>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-links">
+            <ul>
+                <li><h4>arik.</h4></li>
+                <li><a href="#" class="circle"><i class="fa-brands fa-instagram" style="color: #DAC5A7;"></i></a>Instagram</a></li>
+                <li><a href="#" class="circle"><i class="fa-brands fa-twitter" style="color: #DAC5A7;"></i></a>Twitter</a></li>
+                <li><a href="#" class="circle"><i class="fa-brands fa-dribbble" style="color: #DAC5A7;"></i></a>Dribbble</a></li>
+                <li><a href="#" class="circle"><i class="fa-brands fa-behance" style="color: #DAC5A7;"></i></a>Behance</a></li>
+            </ul>
+            <ul>
+                <li><h4>Сторінки</h4></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="btn-talk">Поговоримо?</a></li>
+            </ul>
+            <ul>
+                <li><h4>CMS</h4></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Work Single</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Blog Post</a></li>
+            </ul>
+            <ul>
+                <li><h4>Службові сторінки</h4></li>
+                <li><a href="#">404 Error Page</a></li>
+                <li><a href="#">Password Protected</a></li>
+                <li><a href="#">Styleguide</a></li>
+                <li><a href="#">Licensing</a></li>
+                <li><a href="#">Changelog</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2022 Made by Pawel Gola. Powered by Framer..</p>
+            <a href="#" class="to-top">Наверх
+                <i class="fa-solid fa-arrow-right fa-lg" style="color: #DAC5A7;"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="script/script.js"></script>
+</body>
+</html>

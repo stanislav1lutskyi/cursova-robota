@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>arik.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <meta name="description" content="Web Designer & Developer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <button class="close" id="closeModal">&times;</button>
+        <h2>Давайте зв'яжемося</h2>
+        <form>
+            <input type="text" placeholder="Ім'я" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Повідомлення" required></textarea>
+            <button type="submit">Надіслати</button>
+        </form>
+    </div>
+</div>
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html"><img src="img/Logo.png" alt="img" class="logo"></a>
+        <div class="burger" id="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#">Роботи</a></li>
+            <li><a href="about.html">Про мене</a></li>
+            <li><a href="contact.html">Контакти</a></li>
+            <li><a href="#" class="btn-talk" id="openModal">Поговоримо?</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="process-section proc-padding">
+    <h2 class="main-title">Роботи</h2>
+    <p class="subtitle">Мої останні проекти веб-дизайну та подивіться,
+        як ми можемо допомогти втілити ваші ідеї в життя.</p>
+</section>
+<section class="work-section work-padding">
+    <div class="work-cards">
+        <div class="work-card">
+            <img src="img/card1.png" alt="img">
+            <div class="card-text">
+                <p>Space</p>
+                <span>Веб-дизайн</span>
+            </div>
+        </div>
+        <div class="work-card">
+            <img src="img/card2.png" alt="img">
+            <div class="card-text">
+                <p>Nova</p>
+                <span>Веб-дизайн</span>
+            </div>
+        </div>
+        <div class="work-card">
+            <img src="img/card3.png" alt="img">
+            <div class="card-text">
+                <p>Sonic</p>
+                <span>Веб-дизайн</span>
+            </div>
+        </div>
+        <div class="work-card">
+            <img src="img/card4.png" alt="img">
+            <div class="card-text">
+                <p>Solar</p>
+                <span>Веб-дизайн</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="banner"></div>
+<section class="process-section get-site">
+    <h3 class="section-title">Проект на думці?</h3>
+    <h2 class="main-title">Давайте заставимо ваш
+        <br><span class="font-two">Сайт блистіти</span></h2>
+    <p class="subtitle">Преміальні послуги веб-дизайну, веб-потоку та пошукової оптимізації,
+        які допоможуть вашому бізнесу виділитися.</p>
+    <a href="#" class="btn-talk">Зв'язатися</a>
+</section>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-links">
+            <ul>
+                <li><h4>arik.</h4></li>
+                <li><a href="#" class="circle"><i class="fa-brands fa-instagram" style="color: #DAC5A7;"></i></a>Instagram</a></li>
+                <li><a href="#" class="circle"><i class="fa-brands fa-twitter" style="color: #DAC5A7;"></i></a>Twitter</a></li>
+                <li><a href="#" class="circle"><i class="fa-brands fa-dribbble" style="color: #DAC5A7;"></i></a>Dribbble</a></li>
+                <li><a href="#" class="circle"><i class="fa-brands fa-behance" style="color: #DAC5A7;"></i></a>Behance</a></li>
+            </ul>
+            <ul>
+                <li><h4>Сторінки</h4></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="btn-talk">Поговоримо?</a></li>
+            </ul>
+            <ul>
+                <li><h4>CMS</h4></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Work Single</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Blog Post</a></li>
+            </ul>
+            <ul>
+                <li><h4>Службові сторінки</h4></li>
+                <li><a href="#">404 Error Page</a></li>
+                <li><a href="#">Password Protected</a></li>
+                <li><a href="#">Styleguide</a></li>
+                <li><a href="#">Licensing</a></li>
+                <li><a href="#">Changelog</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2022 Made by Pawel Gola. Powered by Framer..</p>
+            <a href="#" class="to-top">Наверх
+                <i class="fa-solid fa-arrow-right fa-lg" style="color: #DAC5A7;"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="script/script.js"></script>
+</body>
+</html>

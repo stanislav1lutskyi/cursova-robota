@@ -15,19 +15,31 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </head>
 <body>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="close" id="closeModal">&times;</button>
+            <h2>Давайте зв'яжемося</h2>
+            <form>
+                <input type="text" placeholder="Ім'я" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Повідомлення" required></textarea>
+                <button type="submit">Надіслати</button>
+            </form>
+        </div>
+    </div>
     <header class="header">
         <nav class="navbar">
-            <img src="img/Logo.png" alt="img" class="logo">
+            <a href="#"><img src="img/Logo.png" alt="img" class="logo"></a>
             <div class="burger" id="burger-menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
             <ul class="nav-links" id="nav-links">
-                <li><a href="#">Роботи</a></li>
-                <li><a href="#">Про мене</a></li>
-                <li><a href="#">Контакти</a></li>
-                <li><a href="#" class="btn-talk">Поговоримо?</a></li>
+                <li><a href="work.html">Роботи</a></li>
+                <li><a href="about.html">Про мене</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+                <li><a href="#" class="btn-talk" id="openModal">Поговоримо?</a></li>
             </ul>
         </nav>
     </header>
@@ -50,7 +62,7 @@
     <section class="services">
         <div class="service">
             <h3>01</h3>
-            <h2>Веб-дизайн</h2>
+            <h2>Веб-дизайе</h2>
             <p>Візуально приголомшливі веб-дизайни, які
                 захоплюють вашу аудиторію, поєднуючи голос
                 вашого бренду та потреби клієнтів.</p>
